@@ -1,0 +1,6 @@
+.wallet-card-body {
+	background-image: url("./anim.svg");
+	background-size: contain;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
