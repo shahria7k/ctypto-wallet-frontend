@@ -1,8 +1,7 @@
 // import { useEffect } from 'react';
 import { Card, Image } from "react-bootstrap";
 const User = (props) => {
-    console.log(props.user);
-    const { name, picture, email, location } = props.user || { name: "", picture: { large: "" }, email: "", location: { country: "" } };
+    const { name, picture, email, location } = props.user || { name: " ", picture: { large: " " }, email: "", location: { country: "" } };
     return (
         <Card
             text="white"

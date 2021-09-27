@@ -3,13 +3,12 @@ import { Container, Col, Row } from "react-bootstrap";
 import User from "../User/User";
 import Wallet from '../Wallet/Wallet';
 
-const Dashboard = () => {
+const Dashboard = (props) => {
     const [user, setUser] = useState();
     useEffect(() => {
         fetch("https://randomuser.me/api?gender=male")
             .then(res => res.json())
             .then(data => {
-                console.log(data.results[0]);
                 setUser(data.results[0]);
             }
             );
@@ -21,7 +20,7 @@ const Dashboard = () => {
                     <User user={user}></User>
                 </Col>
                 <Col lg="8">
-                    <Wallet></Wallet>
+                    <Wallet userWallet={props.userWallet}></Wallet>
                 </Col>
             </Row>
         </Container>

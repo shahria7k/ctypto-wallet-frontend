@@ -4,3 +4,24 @@
 	background-position: center right;
 	background-repeat: no-repeat;
 }
+.wallet {
+	position: relative;
+}
+.wallet * {
+	z-index: 1;
+}
+.wallet::after {
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-image: url("./anim.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.2;
+}
+table tr td,
+table tr th {
+	background-color: rgba(37, 36, 37, 0) !important;
+}
