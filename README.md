@@ -12,53 +12,31 @@ This project is built as an assignment project for Programming Hero Course.
 
 To See the design file in Figma follow this link
 
-![alt text](screanshot.png)
-
-## Requirements
-
-- The site has to Responsive to mobile Devices and PCs.
-
-- Use Bootstrap CSS.
-
-- Colors Should be adequate to eye.
+![alt text](screanshot.png) .
 
 ## Sections wise requirements are listed below
 
-### 👉 Header
+### 👉 Navbar
 
-- The primary navigation bar is optional
-- The Banner must take 100% width of the viewport space.
-- The Header Bike Image is compulsory But it's background detail is optional.
-- The background color of the header should match the design.
-- The purchase button should prompt a modal with relevant element.
+- Simple Bootstrap Navbar Component
 
-### 👉 Featured
+### 👉 Dashboard
 
-- The Details lines are optional.
+- User profile
+- User Wallet
 
-### 👉 Testimonial
+### 👉 Wallet
 
-- An Image filter should be applied to them images. I.E filter: Hue Rotation
-- The Header Bike Image is compulsory But it's background detail is optional.
-- The Heading of this section should have a isolated design using span tag or
-  something.
-- Icons should be sourced from suitable platform.
+- Displays main currency
+- Displays main currency in Doughnught chart from Chart JS
 
-### 👉 Latest News
+### 👉 Market Place
 
-- This part is optional
+-Displaying all trending crypto currency chart with hourly data of last 7 days
 
-### 👉 FAQ
+### 👉 Cripto cards
 
-- All the FAQs should be presented in an Accordion formation.
-
-### 👉 Footer
-
-- Footer Is optional.
-
-### 👉 Bonus
-
-- Two additional section
-- Contact US, Gallery.
+-contains an image icon of respective currency -A chart that displays all
+trending crypto currency chart with hourly data of last 7 days
 
 ## Thank you for visiting my project
