@@ -8,7 +8,6 @@ import { Doughnut } from 'react-chartjs-2';
 import "./Wallet.css";
 import svg from "./anim.svg";
 const Wallet = (props) => {
-    console.log(props);
     return (
         <Card
             bg="dark"
@@ -37,7 +36,7 @@ const Wallet = (props) => {
                                         <td className="text-center"><FontAwesomeIcon icon={faDollarSign} style={{ fontSize: "1.2em" }} /></td>
                                         <td>USD</td>
                                         <td>-</td>
-                                        <td>{props.userWallet["usd"]}</td>
+                                        <td>{props.userWallet["usdc"]}</td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><FontAwesomeIcon icon={faBitcoin} style={{ fontSize: "1.2em" }} /></td>

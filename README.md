@@ -1,4 +1,4 @@
-# Cripto Wallet 🤑🤑
+# Cripto Wallet
 
 A single page application build with react js
 
